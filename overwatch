@@ -1,0 +1,131 @@
+/* global */
+.submit_text.roundfield.enabled{background:#fee;color:#833;border:1px solid #833}
+span.hover.pagename a:after{visibility:hidden}
+div.content{margin:10px 335px 0 10px}
+.thing{padding:2px 1px}
+textarea{padding:4px}
+.entry{margin:0 20px 0 2px;padding-left:6px}
+pre{background:#eee;border:1px solid #222;color:#222;padding:5px}
+
+/* header */
+#header{background:#fff;border-bottom:1px solid #666}
+#header-img-a{display:inline-block}
+.tabmenu li a{border-top-left-radius:5px;border-top-right-radius:5px;padding:2px 10px 1px;background:#666;color:#fff}
+.tabmenu li.selected a{background:#e3e3e3;border:1px solid #666;border-bottom:0;color:#c00}
+
+/* sidebar */
+.side{padding:37px 5px 0;margin:10px 10px 0 0;position:relative}
+#search input[type="text"]{width:295px}
+.sidecontentbox .thing{border:0;border-radius:0px}
+.side .md p strong{border-radius:5px;background:#fff;border:1px solid #fff}
+.side .md ol{margin-left:20px}
+#moderation_tools ul li a,.sidecontentbox .content li,.sidebox .submit *{background:none}
+div.submit .morelink{position:relative;border:0;background:none;letter-spacing:0}
+div.submit .morelink a{background:none;color:#555;border:1px solid #555;width:298px}
+div.spacer:nth-child(4){margin-bottom:20px}
+div.create,.morelink .nub,.side .submit .spacer{display:none}
+.sidebox:hover:after{display:block;position:absolute;content:"Note: this subreddit is not for self promotion!";margin:2px 0 0 0;padding:6px;background:#c33;color:#fff;z-index:123134;width:288px;text-align:center}
+.side .redditname a{margin:0}
+.titlebox{padding:10px 0}
+.titlebox form.toggle,.leavemoderator{color:#000;padding:5px}
+
+/* header & sidebar */
+.redditname a{display:inline-block;width:253px;height:26px;background:url(%%PYT%%) no-repeat;text-indent:-9999px;margin:0 10px 3px -6px;vertical-align:bottom}
+
+/* footer */
+.bottommenu,.flat-vert .title{color:#222}
+.rounded{border:1px solid #fff}
+.col{border-left:1px solid #333}
+.col .flat-vert a{color:#600}
+.col .flat-vert .buygold{color:#fc0}
+
+/* comments */
+.comment .down{display:block}
+.comment{margin:0 0 10px 10px;padding:10px 20px 0 10px}
+.child .comment{border:0;border-top:1px dashed #666;padding:10px 0 0}
+.child .thing{border:0}
+.link .title .title{color:#626262}
+.link .title .title:hover,.side a,.thing a{color:#c00}
+.link .title .title:visited,.side .bottom,.side .title{color:#999}
+
+/* linkflair stuff */
+a.flairselectbtn{color:#c00 !important;font-size:0}
+a.flairselectbtn:after{content:'Select a flair';font-size:x-small !important}
+span.linkflairlabel{margin:3px 5px -2px 0;width:110px;text-align:center}
+div.linkflair-info{background:#fff url(%%pyt-info%%) no-repeat left top}
+div.linkflair-info span.linkflairlabel{border:1px solid #00c}
+div.linkflair-meta{background:#fff url(%%pyt-meta%%) no-repeat left top}
+div.linkflair-meta span.linkflairlabel{border:1px solid #060}
+div.linkflair-discussion{background:#fff url(%%pyt-discussion%%) no-repeat left top}
+div.linkflair-discussion span.linkflairlabel{border:1px solid #f90}
+div.linkflair-question{background:#fff url(%%pyt-question%%) no-repeat left top}
+div.linkflair-question span.linkflairlabel{border:1px solid #c0c}
+div.linkflair-other{background:#fff url(%%pyt-other%%) no-repeat left top}
+div.linkflair-other span.linkflairlabel{border:1px solid #666}
+div.linkflair-mcn{background:#fff url(%%pyt-mcn-promo%%) no-repeat left top}
+div.linkflair-mcn span.linkflairlabel{border:1px solid #0ff}
+div.linkflair-feedback{background:#fff url(%%pyt-feedback%%) no-repeat left top}
+div.linkflair-feedback span.linkflairlabel{border:1px solid #f00}
+
+/* voting & score */
+.arrow{height:17px;width:14px}
+.arrow.up{background-image:url(%%stroked-thumbs%%);background-position:0 0}
+.arrow.upmod,.arrow.up:hover{background-image:url(%%stroked-thumbs%%);background-position:0 -17px}
+.arrow.down{background-image:url(%%stroked-thumbs%%);background-position:0 -34px}
+.arrow.downmod,.arrow.down:hover{background-image:url(%%stroked-thumbs%%);background-position:0 -51px}
+span.score{color:#333}
+.link.rank{color:#333}
+span.rank{display:none}
+.arrow.down{display:none}
+div.midcol{width:17px;margin-top:6px}
+.comment .midcol{margin:0}
+
+/* custom thumbnails */
+.thumbnail{background:#fff;border:1px solid #ccc;border-radius:5px;margin:2px 4px 2px 0;height:51px}
+.thumbnail.default{background:url(%%no-thumb-link%%) no-repeat 28px 3px}
+.thumbnail.self{background:url(%%no-thumb-text%%) no-repeat 18px 3px}
+
+/* wiki page */
+.wiki-page .wiki-page-content{margin:0;border-radius:5px;border:1px solid #666;padding:10px 20px 0 10px;background:#fff}
+.wiki-page .wiki-page-content .md.wiki h1,.wiki-page .wiki-page-content .md.wiki h2,.wiki-page .wiki-page-content .md.wiki h3,.wiki-page .wiki-page-content .md.wiki h4{margin-top:30px}
+.wiki-page .wiki-page-content .md.wiki h1:first-of-type{margin-top:10px}
+
+/* typography */
+body,.wiki-page .wiki-page-content,h1,h2,h3,h4{font-family:"Trebuchet MS","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Tahoma,sans-serif;}
+code,pre{font-family:"Lucida Sans Typewriter","Lucida Console",Monaco,"Bitstream Vera Sans Mono",monospace;font-size:0.97em}
+.md > ul:nth-child(16) li a{font-family:Tahoma,Geneva,sans-serif;font-weight:700;font-size:1.3em}
+.link .title .title{font-weight:700}
+h1,.wiki-page .wiki-page-content .md.wiki h1{font-size:1.8em}
+h2,.wiki-page .wiki-page-content .md.wiki h2{font-size:1.6em}
+h3,.wiki-page .wiki-page-content .md.wiki h3,.formtabs-content > .spacer:nth-child(6) > .submit_text h3{font-size:1.4em}
+h4,.wiki-page .wiki-page-content .md.wiki h4{font-size:1.2em}
+.md p,.md li,.sidebox:hover:after{font-size:1em}
+span.flair,.md > ul:nth-child(16) li a{font-size:0.9em}
+
+/* borders & colours */
+body{background:#e3e3e3;color:#000}
+.thing,.side{border-radius:5px;border:1px solid #666}
+.rounded{border:1px solid #fff}
+.thing *{color:#000}
+h1,h2,h3,h4,.entry .buttons li a,.domain a,.bottommenu a,.wiki-page .wiki-page-content .md.wiki h2,.wiki-page .wiki-page-content .md.wiki h3,.wiki-page .wiki-page-content .md.wiki h4{color:#666}
+.thing{background:#f6f6f6}
+.link .usertext .md{background:none;border:none}
+.wiki-page .wiki-page-content .md.wiki h1{color:#000}
+
+/* reddit enhancement suite hightlight */
+div.RES-keyNav-activeElement,.commentarea div.RES-keyNav-activeElement .md,.commentarea div.RES-keyNav-activeElement.entry .noncollapsed{background:#f0f0f0 !important}
+
+/* custom subscriber names */
+.subscribers .word{display: none}
+.subscribers .number:after{content:" Growing YouTubers"}
+.users-online .word {display: none}  
+.users-online .number:after{content: " are currently watching"}
+
+/* resource button */
+.md > ul:nth-child(16){list-style:none;position:absolute;top:0;left:-18px}
+.md > ul:nth-child(16) li a{border:1px solid #00c;background:none;color:#555;width:299px;display:block;text-align:center;padding:3px 0;background:#eef}
+
+/* submission page */
+.formtabs-content{padding-top:290px;position:relative}
+.formtabs-content > .spacer:nth-child(6){position:absolute;top:5px;left:0;height:300px}
+.formtabs-content > .spacer:nth-child(6) > .submit_text{background:#fff;color:#000}
