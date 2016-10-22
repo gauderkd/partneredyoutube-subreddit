@@ -13,7 +13,7 @@ font: normal x-small Roboto,arial,sans-serif;
 
 /*Header Styling*/
 #header {
-height: 100px;
+padding-bottom: 18px;
 border-bottom: 0px;
 background-color: white;
 box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
@@ -33,6 +33,8 @@ vertical-align:bottom;
 .titlebox > .redditname {
 display: none;
 }
+
+
 
 #mail.nohavemail {
     left: 0;
@@ -63,7 +65,7 @@ opacity: 0.85;
 
 /*Post Styling*/
 #siteTable {
-width: calc(100% - 320px);
+width: calc(100% - 300px);
 }
 
 .link {
@@ -144,15 +146,70 @@ div.side {
 padding: 240px 0 0 10px; 
 background: #fff url(%%partneredyoutubeLogo%%) 20px 5px no-repeat;
 background-size: 90%;
+height: 333px;
 }
 
+.titlebox, .sidecontentbox, .sidebox.create, .linkinfo {
+left: -10px;
+    width: 300px;
+    background: #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    border-radius: 3px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding: 15px;
+    margin: 10px 0px 10px 0px;
+    border: 0;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#moderation_tools {
+left: -10px;
+    width: 300px;
+    background: #333;
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    border-radius: 3px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding: 15px;
+    margin: 10px 0px 10px 0px;
+    border: 0;
+    -moz-box-sizing: border-box;
+ box-sizing: border-box;
+}
+.icon-menu a {
+background: none;
+}
+
+.sidebox.create {
+    top: 58px;
+    position: relative;
+}
+.morelink {
+    background: #f8f8f8;
+    color: #333;
+width: 270px;
+    background-image: none!important;
+    height: 28px;
+    border-radius: 2px;
+    line-height: 36px;
+    text-align: center;
+    padding: 0;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+    border: 1px solid #d3d3d3;
+}
+
+.sidebox.create > .spacer {
+display: none;
+}
 .newComments {
 color: #ff8c8c;
 }
 
 #search input[type=text] {
 background-color: #fff;
-    width: 229px;
+    width: 221px;
     font-size: 14px;
     height: 30px;
     line-height: 30px;
@@ -178,7 +235,7 @@ background-size: 15px;
     padding-top: 25px;
     margin: 0px;
 border: 1px solid #d3d3d3;
-height: 27px;
+height: 30px;
 width: 60px;
 background-color: #e6e6e6;
     cursor: pointer;
@@ -203,10 +260,70 @@ background-color: #e6e6e6;
     margin: 0px;
 }
 
+#searchexpando {
+position: absolute;
+    right: 20px;
+    top: 260px;
+    border-color: #ccc;
+    background-color: #f8f8f8;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
 
+.submit > .morelink {
+        position: relative;
+width: 130px;
+}
+.submit-text > .morelink {
+margin-left: 150px !important;
+top: -41px;
+}
+.morelink:hover {
+    border-color: #c6c6c6;
+    background: #f0f0f0;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.10);
+}
+.morelink:hover a {
+color: #333;
+}
+.morelink:active {
+    background-color: #e4e4e4;
+    box-shadow: 0 2px 1.5px 0 rgba(0, 0, 0, .12), 0 0 4px 0 rgba(0, 0, 0, .12)
+}
+.sidebox.submit.submit-text .morelink {
+    margin-left: 168px
+}
+.morelink a {
+    color: #333;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 1px;
+margin-top: -3px;
+}
 
-.morelink {
-    display: inline-block;
+.disabled .morelink {
+    box-shadow: none!important;
+    background-color: rgba(0, 0, 0, 0.08);
+    width: 320px
+}
+.disabled .morelink a {
+    color: rgba(0, 0, 0, 0.32);
+    font-size: 14px
+}
+.morelink .nub {
+    display: none
+}
+
+.titlebox, .sidecontentbox, .ad_main, .account-activity-box, .linkinfo{
+position: relative;
+}
+.sidecontentbox .content {
+border: 0px;
+}
+
+/*Sub button*/
+
+.fancy-toggle-button .add {
+background-image: none;
     height: 28px;
     border: solid 1px transparent;
     padding: 0 10px;
@@ -220,42 +337,69 @@ background-color: #e6e6e6;
     cursor: pointer;
     border-radius: 2px;
     box-shadow: 0 1px 0 rgba(0,0,0,0.05);
-    border-color: #d3d3d3;
-    background: #f8f8f8;
-    color: #333;
-    margin-right: 15px;
-}
-.morelink .nub {
-height: 0px;
-width: 0px;
-background: transparent;
-background-image: none;
+    color: #fefefe;
+    background-color: #e62117;
+    max-width: 100%;
+    padding: 0 8px 0 5.5px;
+    height: 15px;
 }
 
-.morelink:hover {
+
+
+.fancy-toggle-button .remove {
+background-image: none;
+    height: 28px;
+    border: 1px solid #d3d3d3;
+    padding: 0 10px;
+    outline: 0;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    white-space: nowrap;
+    line-height: normal;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 2px;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+    color: #333;
+    background-color: #f8f8f8;
+    max-width: 100%;
+    padding: 0 8px 0 5.5px;
+    height: 20px;
+}
+.fancy-toggle-button .add:hover {
+background: #b31217;
+box-shadow: 0 1px 0 rgba(0,0,0,0.10);
+}
+.fancy-toggle-button .remove:hover {
     border-color: #c6c6c6;
     background: #f0f0f0;
     box-shadow: 0 1px 0 rgba(0,0,0,0.10);
-color: #333;
-
 }
 
-.morelink > a {
-font-weight: 500;
-color: #333;
-vertical-align: middle;
-height:13px;
-padding-top: 5px;
+.tabmenu {
+    top: 5px;
+    position: relative;
 }
-
-.morelink:hover a {
-color: #333;
+.tabmenu li a {
+    border: 0px;
+    background-color: transparent;
+    color: #666;
+    margin: 4px;
+    padding-bottom: 11px;
 }
-
+.tabmenu li a:hover {
+border-bottom: 3px solid #e52d27;
+}
+.tabmenu li.selected a {
+border: 0px;
+color: black;
+border-bottom: 3px solid #e52d27;
+}
 
 /*Preview*/
 #preview-table > table {
-width: calc(100% - 320px);
+width: 100%;
 }
 
 /*Reddit Enhancement Suite Changes*/
@@ -266,3 +410,18 @@ width: calc(100% - 320px);
 .res .commentarea .RES-keyNav-activeElement.entry .noncollapsed {
     color: #b31217 !important;
 }
+.res .RESshortcutside, .res .RESDashboardToggle {
+    background-image: none!important;
+    border: none;
+    color: #4D5763;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 0;
+    padding: 4px 6px 4px 0;
+    margin: 2px 6px 2px -4px;
+    text-align: left;
+    width: auto;
+}
+.res .RESshortcutside:hover, .res .RESDashboardToggle:hover {
+background-color: transparent;
+    color: #e52d27;
