@@ -1,0 +1,268 @@
+/*Main Body Styling*/
+
+* {
+    font-family: "Arial", Arial, Helvetica, sans-serif;
+}
+
+
+body {
+background-color: #F1F1F1; /*Youtube Background Color*/
+
+font: normal x-small Roboto,arial,sans-serif;
+}
+
+/*Header Styling*/
+#header {
+height: 100px;
+border-bottom: 0px;
+background-color: white;
+box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.redditname a {
+display:inline-block;
+width:235px;
+height:26px;
+background:url(%%partneredyoutubetitle%%) no-repeat;
+background-size: 235px;
+text-indent:-9999px;
+margin:0 10px 3px -6px;
+vertical-align:bottom;
+}
+
+.titlebox > .redditname {
+display: none;
+}
+
+#mail.nohavemail {
+    left: 0;
+    opacity: .55;
+    top: -2px;
+background-image: url(%%youtube-icon-set%%);
+background-position: 0 -113px;
+background-repeat: none;
+ width: 22px;
+    height: 26px;
+}
+#mail.havemail {
+    left: 0;
+    opacity: .55;
+    top: -2px;
+    background-image: url(%%youtube-icon-set%%);
+background-position: -390px -474px;
+background-position: 0 -113px;
+background-repeat: none;
+ width: 22px;
+    height: 26px;
+}
+
+
+#mail.nohavemail:hover {
+opacity: 0.85;
+}
+
+/*Post Styling*/
+#siteTable {
+width: calc(100% - 320px);
+}
+
+.link {
+box-shadow: 0 1px 2px rgba(0,0,0,.1);
+border-radius: 3px;
+padding: 10px;
+margin: 10px;
+border: 0;
+background: #fff;
+  
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.link .flat-list > li {
+opacity:0;
+    -webkit-transition-duration: 0.5s;
+       -moz-transition-duration: 0.5s;
+         -o-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+}
+
+.link .flat-list > .first, .share {
+opacity: 1 !important;
+}
+
+.link:hover {
+box-shadow: 0 2px 4px rgba(0,0,0,0.16), 0 2px 6px rgba(0,0,0,0.23);
+}
+
+.link:hover .flat-list > li:not(.first) {
+opacity:1;
+}
+
+.first {
+background: #4285F5;
+    font-weight: 500;
+    font-size: 11px;
+    text-decoration: none;
+    white-space: nowrap;
+    line-height: normal;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 2px;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+    padding-left: 2px;
+text-decoration: none;
+}
+
+.first > .comments {
+color: #fff !important;
+text-decoration: none !important;
+}
+
+.first > a {
+color: white !important;
+}
+
+.first:hover {
+background: #1d59ba;
+}
+
+/*Sidebar*/
+.side {
+background: #fff;
+box-shadow: 0 1px 2px rgba(0,0,0,.1);
+border-radius: 3px;
+border-top-right-radius: 0px;
+border-bottom-right-radius: 0px;
+padding: 10px;
+margin: 10px 0px 10px 0px;
+border: 0;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+div.side { 
+padding: 240px 0 0 10px; 
+background: #fff url(%%partneredyoutubeLogo%%) 20px 5px no-repeat;
+background-size: 90%;
+}
+
+.newComments {
+color: #ff8c8c;
+}
+
+#search input[type=text] {
+background-color: #fff;
+    width: 229px;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 0 2px;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 2px #eee;
+}
+
+
+#search input[type=submit] {
+position: relative;
+opacity: 0.6;
+right: 1px;
+    bottom: 1px;
+background-image: url(%%search-icon%%);
+background-size: 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-right: 28px;
+    padding-left: 28px;
+    padding-top: 25px;
+    margin: 0px;
+border: 1px solid #d3d3d3;
+height: 27px;
+width: 60px;
+background-color: #e6e6e6;
+    cursor: pointer;
+    border-radius: 2px;
+    line-height: normal;
+    vertical-align: middle;
+
+}
+
+#search input[type=submit]:hover {
+    position: relative;
+    opacity: 1;
+    right: 1px;
+    bottom: 1px;
+    background-image: url(%%search-icon%%);
+    background-size: 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-right: 28px;
+    padding-left: 28px;
+    padding-top: 25px;
+    margin: 0px;
+}
+
+
+
+.morelink {
+    display: inline-block;
+    height: 28px;
+    border: solid 1px transparent;
+    padding: 0 10px;
+    outline: 0;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    white-space: nowrap;
+    line-height: normal;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 2px;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+    border-color: #d3d3d3;
+    background: #f8f8f8;
+    color: #333;
+    margin-right: 15px;
+}
+.morelink .nub {
+height: 0px;
+width: 0px;
+background: transparent;
+background-image: none;
+}
+
+.morelink:hover {
+    border-color: #c6c6c6;
+    background: #f0f0f0;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.10);
+color: #333;
+
+}
+
+.morelink > a {
+font-weight: 500;
+color: #333;
+vertical-align: middle;
+height:13px;
+padding-top: 5px;
+}
+
+.morelink:hover a {
+color: #333;
+}
+
+
+/*Preview*/
+#preview-table > table {
+width: calc(100% - 320px);
+}
+
+/*Reddit Enhancement Suite Changes*/
+.res .RES-keyNav-activeThing,
+.res .RES-keyNav-activeElement,
+.res .commentarea .RES-keyNav-activeElement .md,
+.res .RES-keyNav-activeElement .md-container, 
+.res .commentarea .RES-keyNav-activeElement.entry .noncollapsed {
+    color: #b31217 !important;
+}
