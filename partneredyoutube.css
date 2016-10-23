@@ -421,7 +421,7 @@ background: #1d59ba;
 background: #333; 
 }
 .stickied.comment > .entry.likes * {
-color: white;
+color: grey;
 }
 .stickied.link {
 background: #333; 
@@ -1105,6 +1105,36 @@ color: #666;
 }
 
 /*Reddit Enhancement Suite Changes*/
+.res #header-bottom-right {
+    top: 1px;
+    border-radius: 0;
+    height: 18px;
+    padding: 0 8px 0 0
+}
+.res #userbarToggle {
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.45);
+    border-radius: 0;
+    border: none;
+    left: -32px
+}
+.res a.beta-link {
+    top: 4px
+}
+.res #header-bottom-right .user .userkarma {
+    display: none
+}
+.res #header-bottom-right .user {
+    font-size: 0!important
+}
+.res #header-bottom-right .user a {
+    font-size: 11px
+}
+.res #sr-header-area a.RESShortcutsCurrentSub,
+.res #RESSubredditGroupDropdown .RESShortcutsCurrentSub a {
+    color: #fff!important;
+    border-bottom: 2px solid #fff
+}
 .res .RES-keyNav-activeThing,
 .res .RES-keyNav-activeElement,
 .res .commentarea .RES-keyNav-activeElement .md,
@@ -1139,8 +1169,31 @@ background-color: transparent;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     background-color: #4F8EF7!important
 }
+.res #RESShortcutsEditContainer {
+    margin-right: 312px
+}
+.res #RESShortcutsEditContainer,
+#RESShortcutsSort,
+#RESShortcutsRight,
+#RESShortcutsLeft,
+#RESShortcutsAdd,
+#RESShortcutsTrash {
+    background-color: transparent!important;
+    top: 1px!important
+}
+#RESShortcutsViewport {
+width: calc(100% - 813px);
+}
+div.RES-keyNav-activeElement, div.commentarea div.RES-keyNav-activeElement.entry div.noncollapsed {
+    background-color: transparent!important;
+    padding-left: 8px!important;
+    border-left: 3px solid #C2C2C2;
+}
 
 
+.content .RESBigEditorPop {
+width: 105px;
+}
 /*FLAIR!*/
 .link {
 border-left: 10px solid #fff
