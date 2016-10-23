@@ -1,6 +1,6 @@
 /*Main Body Styling
 Written by Dragnerz: https://github.com/gauderkd
-Uses snippets of code from Naut theme: https://github.com/Axel--/Naut-for-reddit by Axel Schoterman
+Based on Naut theme: https://github.com/Axel--/Naut-for-reddit
 */
 * {
     font-family: "Arial", Arial, Helvetica, sans-serif;
@@ -418,13 +418,13 @@ background: #1d59ba;
     color: #27b062
 }
 .stickied.comment {
-background: #333;
+background: #333; 
 }
 .stickied.comment > .entry.likes * {
 color: white;
 }
 .stickied.link {
-background: #333;
+background: #333; 
 }
 .tagline .moderator.author {
 color: #228822 !important;
@@ -680,6 +680,32 @@ color: #333;
 .sidebox.submit {
 position: relative;
 top: 12px;
+}
+.sidebox.submit-text > .morelink:hover::after {
+    width: 257px;
+    height: 23px;
+    background: red;
+    content: "Note: This subreddit is NOT for self-promotion!";
+    color: white;
+    position: absolute;
+    padding: 10px;
+    left: -145px;
+    top: -61px;
+    text-align: center;
+    line-height: 14px;
+}
+.sidebox.submit-link > .morelink:hover::after {
+    width: 257px;
+    height: 23px;
+    background: red;
+    content: "Note: This subreddit is NOT for self-promotion!";
+    color: white;
+    position: absolute;
+    padding: 10px;
+    left: 0px;
+    top: -61px;
+    text-align: center;
+    line-height: 14px;
 }
 .morelink a {
     color: #333;
@@ -942,6 +968,19 @@ background-color: #fff;
     border: 1px solid #ccc;
     box-shadow: inset 0 1px 2px #eee;
 }
+.submit_text.roundfield {
+border: 5px solid #e52d27;
+}
+.link .usertext-body .md {
+border: 0px;
+    border-radius: 2px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.16),0 1px 7px rgba(0,0,0,0.23);
+    width: 95%;
+    left: 10px;
+    position: relative;
+}
+
+
 .formtabs-content {
 border-top: 0px solid #e52d27;
 
@@ -1165,4 +1204,34 @@ background: linear-gradient( 90deg, #f90, #333 1% );
 .linkflair-meta.link.stickied {
 border-left: 10px solid #666;
 background: linear-gradient( 90deg, #666, #333 1% );
+}
+
+.linkflairlabel {
+position: relative;
+    display: inline-block;
+    margin-right: .2em;
+    padding: 0 2px;
+box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    color: #555;
+border: 0px solid #ddd;
+    border-radius: 2px;
+font-size: 15px;
+top: 2px
+}
+
+
+.link .flair {
+    font-size: x-small;
+    margin-top: -1px;
+    position: relative;
+    display: inline-block;
+    margin-right: .2em;
+    padding: 0 2px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
+    color: #555;
+    border: 0px solid #ddd;
+    border-radius: 2px;
+    font-size: 15px;
+    top: 2px;
+left: 5px;
 }
