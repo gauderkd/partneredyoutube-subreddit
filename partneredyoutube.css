@@ -1105,31 +1105,31 @@ background-color: transparent;
 /*FLAIR!*/
 .linkflair-mcn.link {
     border-left: 10px solid #0ff;
-background: linear-gradient( 90deg, #0ff, white 2% );
+background: linear-gradient( 90deg, #0ff, white 1% );
 }
 .linkflair-question.link {
     border-left: 10px solid #c0c;
-background: linear-gradient( 90deg, #c0c, white 2% );
+background: linear-gradient( 90deg, #c0c, white 1% );
 }
 .linkflair-feedback.link {
 border-left: 10px solid #f00;
-background: linear-gradient( 90deg, #f00, white 2% );
+background: linear-gradient( 90deg, #f00, white 1% );
 }
 .linkflair-info.link {
 border-left: 10px solid #00c;
-background: linear-gradient( 90deg, #00c, white 2% );
+background: linear-gradient( 90deg, #00c, white 1% );
 }
 .linkflair-meta.link {
 border-left: 10px solid #060;
-background: linear-gradient( 90deg, #060, white 2% );
+background: linear-gradient( 90deg, #060, white 1% );
 }
 .linkflair-discussion.link {
 border-left: 10px solid #f90;
-background: linear-gradient( 90deg, #f90, white 2% );
+background: linear-gradient( 90deg, #f90, white 1% );
 }
 .linkflair-meta.link {
 border-left: 10px solid #666;
-background: linear-gradient( 90deg, #666, white 2% );
+background: linear-gradient( 90deg, #666, white 1% );
 }
 
 .linkflairlabel {
