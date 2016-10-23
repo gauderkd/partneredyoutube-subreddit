@@ -1103,6 +1103,12 @@ background-color: transparent;
 
 
 /*FLAIR!*/
+.link {
+border-left: 10px solid #fff
+}
+.link.stickied {
+border-left: 10px solid #333;
+}
 .linkflair-mcn.link {
     border-left: 10px solid #0ff;
 background: linear-gradient( 90deg, #0ff, white 1% );
@@ -1132,32 +1138,31 @@ border-left: 10px solid #666;
 background: linear-gradient( 90deg, #666, white 1% );
 }
 
-.linkflairlabel {
-position: relative;
-    display: inline-block;
-    margin-right: .2em;
-    padding: 0 2px;
-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    color: #555;
-border: 0px solid #ddd;
-    border-radius: 2px;
-font-size: 15px;
-top: 2px
+.linkflair-mcn.link.stickied {
+    border-left: 10px solid #0ff;
+background: linear-gradient( 90deg, #0ff, #333 1% );
 }
-
-
-.link .flair {
-    font-size: x-small;
-    margin-top: -1px;
-    position: relative;
-    display: inline-block;
-    margin-right: .2em;
-    padding: 0 2px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
-    color: #555;
-    border: 0px solid #ddd;
-    border-radius: 2px;
-    font-size: 15px;
-    top: 2px;
-left: 5px;
+.linkflair-question.link.stickied {
+    border-left: 10px solid #c0c;
+background: linear-gradient( 90deg, #c0c, #333 1% );
+}
+.linkflair-feedback.link.stickied {
+border-left: 10px solid #f00;
+background: linear-gradient( 90deg, #f00, #333 1% );
+}
+.linkflair-info.link.stickied {
+border-left: 10px solid #00c;
+background: linear-gradient( 90deg, #00c, #333 1% );
+}
+.linkflair-meta.link.stickied {
+border-left: 10px solid #060;
+background: linear-gradient( 90deg, #060, #333 1% );
+}
+.linkflair-discussion.link.stickied {
+border-left: 10px solid #f90;
+background: linear-gradient( 90deg, #f90, #333 1% );
+}
+.linkflair-meta.link.stickied {
+border-left: 10px solid #666;
+background: linear-gradient( 90deg, #666, #333 1% );
 }
