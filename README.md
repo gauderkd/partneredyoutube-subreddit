@@ -1,3 +1,4 @@
-# partneredyoutube-subreddit
+# PartneredYoutube subreddit CSS
 
-DEMO available here: https://www.reddit.com/r/PartneredYoutube/
+See live here: https://www.reddit.com/r/PartneredYoutube/
+
