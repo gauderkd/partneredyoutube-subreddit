@@ -1,3 +1,3 @@
 # partneredyoutube-subreddit
 
-DEMO available here: https://www.reddit.com/r/ScienceInGaming/
+DEMO available here: https://www.reddit.com/r/PartneredYoutube/
